@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	 <title>Tara Thierry</title>
+	 <meta charset="utf-8" />
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	 <link = rel="stylesheet" type="text/css" href="CSS/styles.css">
+	 <!-- 
+	 script src=
+	 logo
+	-->
+</head>
+<body>
+<h2>Tara Thierry</h2>
+<nav class="navbar">
+	<ul class="navbar"> 
+		<li> <a href = "index.html">Home</a></li>
+		<li class="dropdown"> 
+		<a href="javascript:void(0)" class="dropbtn">About</a>
+    		<div class="dropdown-content">
+				<a href="about.html">Bio</a>
+				<a href="about.html#res">Resume</a>
+				<a href="about.html#statement">Statement</a>
+			</div>
+		</li>
+	
+		<!--Intermedia -->
+		<nav id="intermedia">
+		<li class="dropdown">
+		<a href = "javascript:void(0)" class="dropbtn">Intermedia</a>
+		    <div class="dropdown-content">
+				<a href="gallery.html">Photography</a>
+				<a href="vpoetry.html">Visual Poetry</a>
+				<a href="performances.html">Performances</a>
+			</div>
+		</li>
+
+
+		<li><a href = "manifesto.html" target="_blank">Manifesto</a></li>
+
+		<li class="right"><a href = "contact.html" target="_blank">Contact</a></li> 
+	</ul>
+</nav>
+<h2 class="center">Photography</h2>
+ 	<p class="center">Accidental Abstractions: Harrision Caves, Barbados</p>
+
+<div class="gallery" align="center">
+
+		<!-- code refs: http://html-tuts.com/html-photo-gallery-simple-javascript/ divs for 1) photo gallery 2) thumbnails 3)preview
+		https://www.htmlgoodies.com/html5/css/how-to-create-a-css3-based-image-gallery.html
+
+	*** add alt text
+	-->
+
+		<!-- Thumbnails -->
+		<div class ="thumbnails">
+
+			<img onmouseover="getElementById('preview').src=this.src" src="images/Abstracts/DSCF3739.jpg" alt="" />
+			<img onmouseover="getElementById('preview').src=this.src" src="images/Abstracts/DSCF3769.jpg" alt="" />
+			<img onmouseover="getElementById('preview').src=this.src" src="images/Abstracts/DSCF3783.jpg" alt="" />
+			<img onmouseover="getElementById('preview').src=this.src" src="images/Abstracts/DSCF3787.jpg" alt="" />
+			<img onmouseover="getElementById('preview').src=this.src" src="images/Abstracts/DSCF3788.jpg" alt="" />
+			<img onmouseover="getElementById('preview').src=this.src" src="images/Abstracts/DSCF3789.jpg" alt="" />
+
+		</div>
+
+		<!-- Preview -->
+		<div class="preview">
+
+			<img id="preview" src="images/Abstracts/DSCF3739.jpg" alt="" />
+
+		</div>
+		</style>
+
+</div>
+
+
+</body>
+</html>
