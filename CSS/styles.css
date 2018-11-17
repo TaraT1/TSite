@@ -76,6 +76,10 @@ body {
 	text-align: center;
 }
 
+.lefttext {
+	text-align: left;
+}
+
 
 
 /* tab spaces; Invoke with <tab#> Used <tab3> for resume*/
