@@ -1,11 +1,14 @@
 
 body {
 	font-family: "Century Gothic", "Futura", "Lucinda Sans", sans-serif;
-	max-width: 979px;
+	max-width: 900px;
 	
+}
 
-
-
+img {
+	width: 900px;
+	max-width: 100%
+	height: auto;
 }
 
 /* Navigation Bar */
@@ -20,6 +23,10 @@ body {
 .navbar li {
 		float: left;
 	}
+
+.navbar li.right {
+		float: right;
+}
 
 .navbar li a, .dropbtn {
 		display: inline-block;
@@ -60,16 +67,11 @@ body {
     display: block;
 }
 
-.navbar li.right {
-	float: right;
-	
-}
+
 
 .center {
 	margin: auto;
 	width: 70%; 
-	
-
 }
 
 .centertext {
@@ -79,8 +81,6 @@ body {
 .lefttext {
 	text-align: left;
 }
-
-
 
 /* tab spaces; Invoke with <tab#> Used <tab3> for resume*/
 tab0  { position:absolute;left:25px;  }
@@ -109,6 +109,7 @@ tab10 { position:absolute;left:275px; }
 
 	.thumbnails img {
 		height: 80px;
+		width: auto;
 		border: 4px solid #555;
 		padding: 1px;
 		margin: 10px 5px 10px 5px;
@@ -122,5 +123,7 @@ tab10 { position:absolute;left:275px; }
 	.preview img {
 		border: 4px solid #444;
 		padding: 1px;
-		width: 900px;
+		/*width: 900px;*/
+		max-width: 100%;
+		height: auto;
 	}
